@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-function GameBubble({ t1, t2, date, gameId, youtubeLink }) {
+function GameBubble ({ t1, t2, date, gameId, youtubeLink }) {
 
     const getYouTubeThumbnail = (url) => {
         const match = url.match(/embed\/([^/?]+)/);

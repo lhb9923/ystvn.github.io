@@ -1,5 +1,5 @@
 import './App.css';
-import Navigation from './Components/Navigation.jsx';
+import Navigation from './Components/Navigation.tsx';
 import TeamView from './Components/TeamView.jsx';
 import GameView from './Components/GameView.jsx';
 import React, { useState } from 'react';
